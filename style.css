@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  color: hsl(158, 42%, 18%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 700px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    width: 95%;
+    border-radius: 2%;
+  }
+  .perfumImg {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+  }
+  .Perfume_Text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .heading_Text {
+    font-family: "Fraunces", serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    line-height: 30px;
+  }
+  .aditional_Text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 70px;
+    line-height: 20px;
+  }
+  .Price {
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 30px;
+  }
+  .smallPrice {
+    font-family: "Fraunces", serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.7rem;
+    font-weight: 500;
+    align-self: center;
+    padding-left: 20px;
+    text-decoration: line-through;
+  }
+  .div_Price {
+    display: flex;
+    padding-bottom: 15px;
+  }
+  .div_button {
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+  .Button {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-family: "Fraunces", serif;
+    height: 40px;
+    width: 300px;
+    font-size: 0.8rem;
+  }
+  .imgCart {
+    height: 12px;
+    width: auto;
+    padding-right: 10px;
+    transform: translateY(2px);
+  }
+  .DesktopImg {
+    display: none;
+  }
+}
+
+@media (min-width: 701px) {
+  .DesktopImg {
+    width: auto;
+    height: 100%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+  }
+  .perfumImg {
+    display: none;
+  }
+  #container {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    height: 400px;
+    border-radius: 2%;
+  }
+  .Perfume_Text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .heading_Text {
+    font-family: "Fraunces", serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    line-height: 30px;
+  }
+  .aditional_Text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    line-height: 20px;
+  }
+  .Price {
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-left: 25px;
+  }
+  .smallPrice {
+    font-family: "Fraunces", serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.7rem;
+    font-weight: 500;
+    align-self: center;
+    padding-left: 15px;
+    text-decoration: line-through;
+  }
+  .div_Price {
+    display: flex;
+    padding-bottom: 30px;
+  }
+  .div_button {
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+  .div_size {
+    width: 266px;
+  }
+  .Button {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-family: "Fraunces", serif;
+    height: 40px;
+    width: 220px;
+    font-size: 0.8rem;
+  }
+  .imgCart {
+    height: 12px;
+    width: auto;
+    padding-right: 10px;
+    transform: translateY(2px);
+  }
+}
